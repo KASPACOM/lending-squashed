@@ -1,0 +1,148 @@
+{
+  "tokens": [
+    {
+      "symbol": "USDT",
+      "address": "0x1179f680A67474E337bB9710266D9a983B83d014",
+      "priceFeed": "0xF93A990aF973D6763a8aE84d783d9e955e90C108",
+      "riskParams": {
+        "ltv": 9300,
+        "liquidationThreshold": 9500,
+        "liquidationBonus": 10500
+      },
+      "caps": {
+        "supplyCap": 5000000,
+        "borrowCap": 3000000
+      },
+      "decimals": 6,
+      "reserveFactor": 1500,
+      "borrowingEnabled": true,
+      "useVirtualBalance": true,
+      "interestRateData": {
+        "optimalUsageRatio": 8000,
+        "baseVariableBorrowRate": 100,
+        "variableRateSlope1": 400,
+        "variableRateSlope2": 6000
+      }
+    },
+    {
+      "symbol": "USDC",
+      "address": "0xf1F5beF8C7a08762477908Cdf038F33770b091E9",
+      "priceFeed": "0x05E32cA2dc837fd39135F1170914D6821F3D1AE7",
+      "riskParams": {
+        "ltv": 9300,
+        "liquidationThreshold": 9500,
+        "liquidationBonus": 10500
+      },
+      "caps": {
+        "supplyCap": 5000000,
+        "borrowCap": 3000000
+      },
+      "decimals": 6,
+      "reserveFactor": 1500,
+      "borrowingEnabled": true,
+      "useVirtualBalance": true,
+      "interestRateData": {
+        "optimalUsageRatio": 8000,
+        "baseVariableBorrowRate": 100,
+        "variableRateSlope1": 400,
+        "variableRateSlope2": 6000
+      }
+    },
+    {
+      "symbol": "DAI",
+      "address": "0xd1eb18fF7bF46646A04038A9Faf249E235cd701c",
+      "priceFeed": "0x469fF3cED269a2FB1c25D5A2547ba0Ada496DC18",
+      "riskParams": {
+        "ltv": 9300,
+        "liquidationThreshold": 9500,
+        "liquidationBonus": 10500
+      },
+      "caps": {
+        "supplyCap": 5000000,
+        "borrowCap": 3000000
+      },
+      "decimals": 18,
+      "reserveFactor": 1500,
+      "borrowingEnabled": true,
+      "useVirtualBalance": true,
+      "interestRateData": {
+        "optimalUsageRatio": 8000,
+        "baseVariableBorrowRate": 100,
+        "variableRateSlope1": 400,
+        "variableRateSlope2": 6000
+      }
+    },
+    {
+      "symbol": "WETH",
+      "address": "0x414766483052749Aec7a8e86409A0dF59Ec55e63",
+      "priceFeed": "0x953D8E39C2730C68084801C574c5548c741671F4",
+      "riskParams": {
+        "ltv": 7500,
+        "liquidationThreshold": 8500,
+        "liquidationBonus": 11000
+      },
+      "caps": {
+        "supplyCap": 5000,
+        "borrowCap": 3000
+      },
+      "decimals": 18,
+      "reserveFactor": 2000,
+      "borrowingEnabled": true,
+      "useVirtualBalance": false,
+      "interestRateData": {
+        "optimalUsageRatio": 4500,
+        "baseVariableBorrowRate": 200,
+        "variableRateSlope1": 700,
+        "variableRateSlope2": 7500
+      }
+    },
+    {
+      "symbol": "WBTC",
+      "address": "0x7120770D4BD97dDE9A103AbDA7D70366F67009A3",
+      "priceFeed": "0xdCAf6ac775eCE100792bE19Af52928A4E6C9A043",
+      "riskParams": {
+        "ltv": 7000,
+        "liquidationThreshold": 8000,
+        "liquidationBonus": 11500
+      },
+      "caps": {
+        "supplyCap": 5000,
+        "borrowCap": 3000
+      },
+      "decimals": 8,
+      "reserveFactor": 2500,
+      "borrowingEnabled": true,
+      "useVirtualBalance": false,
+      "interestRateData": {
+        "optimalUsageRatio": 4500,
+        "baseVariableBorrowRate": 200,
+        "variableRateSlope1": 800,
+        "variableRateSlope2": 9000
+      }
+    },
+    {
+      "symbol": "IWKAS",
+      "address": "0x30dd00b82598c4109cc4d948144ee3f062289eff",
+      "priceFeed": "0xa4c786b7808963a71c6a7bd18047b79b62eA7Bd5",
+      "riskParams": {
+        "ltv": 6000,
+        "liquidationThreshold": 7500,
+        "liquidationBonus": 11500
+      },
+      "caps": {
+        "supplyCap": 10000,
+        "borrowCap": 6000
+      },
+      "decimals": 18,
+      "reserveFactor": 2000,
+      "borrowingEnabled": true,
+      "useVirtualBalance": false,
+      "interestRateData": {
+        "optimalUsageRatio": 6000,
+        "baseVariableBorrowRate": 300,
+        "variableRateSlope1": 800,
+        "variableRateSlope2": 7000
+      }
+    }
+  ]
+}

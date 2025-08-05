@@ -1,0 +1,158 @@
+{
+  "marketConfig": {
+    "poolConfiguratorProxy": "0xAD145257FCF18A53a68784a0dc5eb60e9f49ECdd",
+    "aaveOracle": "0x6f10A47E2Df6138a36Bc785DA927Ea4072fd4c8f",
+    "treasury": "0x9D5Df257A9C1Bbfe61eB46EeD2F5bCf33D1bfCdc",
+    "aToken": "0xB82a426AEa956be5de5C23C26951a509EA216E4B",
+    "variableDebtToken": "0x55bD145Ad498ee9173Cf22bdF0c8d9d97f944721",
+    "defaultInterestRateStrategy": "0x2c0BAdf0D0B840A14931CA1382ee0B51153AfBC6",
+    "poolAddressesProvider": "0xEf0a017368a8C179895Ffff65C731510eB28d964",
+    "rewardsControllerProxy": "0x0a15Dd17C8eB2087C146Aee114dfE5Aa6A186AE5"
+  },
+  "tokens": [
+    {
+      "symbol": "USDT",
+      "address": "0xDaf8B68Cdf320727af105bCa68e174b5EDB3433E",
+      "priceFeed": "0x3aCd7825c545F05432E869020A094d3699dffd22",
+      "riskParams": {
+        "ltv": 9300,
+        "liquidationThreshold": 9500,
+        "liquidationBonus": 10500
+      },
+      "caps": {
+        "supplyCap": 5000000,
+        "borrowCap": 3000000
+      },
+      "decimals": 6,
+      "reserveFactor": 1500,
+      "borrowingEnabled": true,
+      "useVirtualBalance": true,
+      "interestRateData": {
+        "optimalUsageRatio": 8000,
+        "baseVariableBorrowRate": 100,
+        "variableRateSlope1": 400,
+        "variableRateSlope2": 6000
+      }
+    },
+    {
+      "symbol": "USDC",
+      "address": "0xFC84a4b04E0074D08c4242A291bfC73840E5Ad14",
+      "priceFeed": "0x5aC2aa948A7C52AC6A95E855d59f6E858a26289c",
+      "riskParams": {
+        "ltv": 9300,
+        "liquidationThreshold": 9500,
+        "liquidationBonus": 10500
+      },
+      "caps": {
+        "supplyCap": 5000000,
+        "borrowCap": 3000000
+      },
+      "decimals": 6,
+      "reserveFactor": 1500,
+      "borrowingEnabled": true,
+      "useVirtualBalance": true,
+      "interestRateData": {
+        "optimalUsageRatio": 8000,
+        "baseVariableBorrowRate": 100,
+        "variableRateSlope1": 400,
+        "variableRateSlope2": 6000
+      }
+    },
+    {
+      "symbol": "DAI",
+      "address": "0x9E7edE66d39d9b69d817b7368CD9d66a7D6Dc468",
+      "priceFeed": "0x33cA5701A9d5a6f8eE2817E3015119fe1b6C299c",
+      "riskParams": {
+        "ltv": 9300,
+        "liquidationThreshold": 9500,
+        "liquidationBonus": 10500
+      },
+      "caps": {
+        "supplyCap": 5000000,
+        "borrowCap": 3000000
+      },
+      "decimals": 18,
+      "reserveFactor": 1500,
+      "borrowingEnabled": true,
+      "useVirtualBalance": true,
+      "interestRateData": {
+        "optimalUsageRatio": 8000,
+        "baseVariableBorrowRate": 100,
+        "variableRateSlope1": 400,
+        "variableRateSlope2": 6000
+      }
+    },
+    {
+      "symbol": "WETH",
+      "address": "0x54319ceE10d537Dec6aa812d6f22eC3F31AC7ca6",
+      "priceFeed": "0x2971f5165E3fb6a27b59e33C32C0E45CD8393e05",
+      "riskParams": {
+        "ltv": 7500,
+        "liquidationThreshold": 8500,
+        "liquidationBonus": 11000
+      },
+      "caps": {
+        "supplyCap": 5000,
+        "borrowCap": 3000
+      },
+      "decimals": 18,
+      "reserveFactor": 2000,
+      "borrowingEnabled": true,
+      "useVirtualBalance": true,
+      "interestRateData": {
+        "optimalUsageRatio": 4500,
+        "baseVariableBorrowRate": 200,
+        "variableRateSlope1": 700,
+        "variableRateSlope2": 7500
+      }
+    },
+    {
+      "symbol": "WBTC",
+      "address": "0x508B83AB67fEDcd1e8b6F8AE88F5Eb0B1670eFb6",
+      "priceFeed": "0x8d8c5D99986237CEC01ED454a748Ea5e72263BBf",
+      "riskParams": {
+        "ltv": 7000,
+        "liquidationThreshold": 8000,
+        "liquidationBonus": 11500
+      },
+      "caps": {
+        "supplyCap": 5000,
+        "borrowCap": 3000
+      },
+      "decimals": 8,
+      "reserveFactor": 2500,
+      "borrowingEnabled": true,
+      "useVirtualBalance": true,
+      "interestRateData": {
+        "optimalUsageRatio": 4500,
+        "baseVariableBorrowRate": 200,
+        "variableRateSlope1": 800,
+        "variableRateSlope2": 9000
+      }
+    },
+    {
+      "symbol": "WKAS",
+      "address": "0x654A3287c317D4Fc6e8482FeF523Dc4572b563AA",
+      "priceFeed": "0x6c34f5d90D834dBFCD6e62F04935695c7927c926",
+      "riskParams": {
+        "ltv": 6000,
+        "liquidationThreshold": 7500,
+        "liquidationBonus": 11500
+      },
+      "caps": {
+        "supplyCap": 10000000,
+        "borrowCap": 6000000
+      },
+      "decimals": 18,
+      "reserveFactor": 2000,
+      "borrowingEnabled": true,
+      "useVirtualBalance": true,
+      "interestRateData": {
+        "optimalUsageRatio": 6000,
+        "baseVariableBorrowRate": 300,
+        "variableRateSlope1": 800,
+        "variableRateSlope2": 7000
+      }
+    }
+  ]
+}
